@@ -1,0 +1,60 @@
+.about-title{
+  color: #006636;
+  font-weight: bold;
+}
+
+.bloco-about {
+  background-color: rgba(0, 102, 54, 0.17);
+  border-radius: 20px;
+  padding-bottom: 2rem;
+  h5 p {
+    color: #4BB985 !important;
+  }
+}
+
+.logo-about {
+  padding: 2rem;
+}
+
+.text-about {
+  max-width: 27rem;
+  word-wrap: break-word;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  text-align: center; /* Centraliza o texto dentro do elemento */
+  padding-bottom: 1rem;
+}
+
+.title-about {
+  padding-bottom: 1rem;
+}
+
+.btn-saiba-mais{
+  background-color: rgba(75, 185, 133, 1);
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.fa-solid {
+  font-size: xxx-large;
+  color: #006636;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly; /* Espaço igual entre os ícones */
+  margin-inline: 7rem;
+}
+
+.left-icons,
+.right-icons {
+  padding: 0 2rem
+}
+
+.text-fork-icon,
+.text-users-icon {
+  max-width: 10rem;
+  word-wrap: break-word; /* Permite que o texto seja quebrado automaticamente */
+}
