@@ -1,0 +1,26 @@
+.bloco-banner {
+  background-color: rgba(0, 102, 54, 0.17);
+  border-radius: 20px;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  margin-top: 3rem;
+}
+
+/* Estilo para os indicadores de slide como círculos verdes */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 10px; /* Largura do círculo */
+  height: 10px; /* Altura do círculo */
+  background-color: #006636; /* Cor de fundo verde */
+  border-radius: 50%; /* Define o elemento como um círculo */
+  display: inline-block;
+}
+
+/* Estilo para o indicador de slide ativo */
+.carousel-control-next {
+  right: 5rem !important;
+}
+
+.carousel-control-prev {
+  left: 5rem !important;
+}

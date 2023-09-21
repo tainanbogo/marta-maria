@@ -1,0 +1,51 @@
+.divisor-contact {
+  content: '';
+  width: 100%;
+  height: 2px; /* Altura da linha verde */
+  background-color:rgb(32, 145, 92); /* Cor da linha verde */
+  position: absolute;
+  top: 50%; /* Posiciona a linha verticalmente no meio */
+  transform: rotate(0.11deg);
+  position: relative;
+  margin: 3rem 0;
+}
+
+.divisor-contact-down {
+  content: '';
+  width: 100%;
+  height: 2px; /* Altura da linha verde */
+  background-color:rgb(32, 145, 92); /* Cor da linha verde */
+  position: absolute;
+  top: 50%; /* Posiciona a linha verticalmente no meio */
+  transform: rotate(0.11deg);
+  position: relative;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contact address {
+  font-style: normal;
+  color:rgb(32, 145, 92) !important;
+}
+
+.contact h3 {
+  font-weight: bold !important;
+  color:#006636 !important;
+}
+
+.insta-link {
+  font-size: 4rem; /* Tamanho dos ícones */
+  margin: 10px 0; /* Espaçamento entre os ícones */
+  color:rgb(32, 145, 92); /* Cor dos ícones */
+  text-decoration: none !important;
+}
+
+.phone {
+  text-decoration: underline;
+}

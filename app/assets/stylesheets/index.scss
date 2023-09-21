@@ -1,9 +1,18 @@
 @import "navbar";
 @import "home";
+@import "banner";
 @import "about";
+@import "donate";
+@import "divisor";
+@import "contact";
+@import "footer";
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
 
 body {
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 
 a {
@@ -12,4 +21,21 @@ a {
 
 li {
   list-style: none !important;
+}
+
+p {
+  font-size: 1rem;
+  color: rgb(32, 145, 92);
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: rgb(13, 105, 35) !important;
+}
+
+.title {
+  color: #006636 !important;
+  font-size: 32px !important;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }

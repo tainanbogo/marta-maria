@@ -1,35 +1,36 @@
-<h1 class="about-title text-center mb-4">Quem Somos</h1>
-
-<div class="bloco-about text-center">
-  <div class="center-content">
-    <%= image_tag("group3.png", class: "logo-about") %>
-    <div class="title-about">
-      <h5>Ha mais de 10 anos ajudando quem mais precisa.</h5>
-      <p class="text-about">A Associação Marta e Maria iniciou seus trabalhos voluntários através de um pequeno grupo de amigos,
-        que vieram a necessidade de alimentar e ajudar moradores de rua e famílias carentes</p>
+<div class="container">
+  <h1 class="title about-title text-center mb-4">Quem Somos</h1>
+  <div class="bloco-about text-center">
+    <div class="center-content">
+      <%= image_tag("group3.png", class: "logo-about") %>
+      <div class="title-about">
+        <h5>Ha mais de 10 anos ajudando quem mais precisa.</h5>
+        <p class="text-about">A Associação Marta e Maria iniciou seus trabalhos voluntários através de um pequeno grupo de amigos,
+          que vieram a necessidade de alimentar e ajudar moradores de rua e famílias carentes</p>
+      </div>
+      <%= link_to "Saiba mais", root_path, class: "btn-saiba-mais px-4" %>
     </div>
-    <%= link_to "Saiba mais", root_path, class: "btn-saiba-mais px-4" %>
   </div>
-</div>
-<div class="our-impact text-center">
-  <h1 class="about-title mt-3">Nosso Impacto</h1>
-  <div class="icons">
-    <div class="left-icons">
-      <div class="fork-icon">
-        <i class="fa-solid fa-utensils"></i>
+  <div class="our-impact text-center">
+    <h1 class="title about-title mt-3">Nosso Impacto</h1>
+    <div class="icons">
+      <div class="left-icons">
+        <div class="fork-icon">
+          <i class="icon fa-solid fa-utensils"></i>
+        </div>
+        <div class="text-fork-icon">
+          <h2 class="text-title-icon"><i class="plus-icon fa-solid fa-plus"></i> 100</h2>
+          <p>Toneladas de alimentos distribuidos</p>
+        </div>
       </div>
-      <div class="text-fork-icon">
-        <h2>+ 100</h2>
-        <p>Toneladas de alimentos distribuidos</p>
-      </div>
-    </div>
-    <div class="right-icons">
-      <div class="users-icon">
-        <i class="fa-solid fa-user-group"></i>
-      </div>
-      <div class="text-users-icon">
-        <h2>+ 170</h2>
-        <p>de familias atendidas</p>
+      <div class="right-icons">
+        <div class="users-icon">
+          <i class="icon fa-solid fa-user-group"></i>
+        </div>
+        <div class="text-users-icon">
+          <h2 class="text-title-icon"><i class="plus-icon fa-solid fa-plus"></i> 170</h2>
+          <p>de familias atendidas</p>
+        </div>
       </div>
     </div>
   </div>
